@@ -20,28 +20,28 @@
 			"height": 94,
 			"title": "store",
 			"width": 299,
-			"x": 1614,
+			"x": 1613,
 			"y": 154
 		},
 		"BFDjTO0mR2Uf57LhVYtWsdaJbP3WQ8Jy": {
 			"height": 110,
 			"title": "reference",
 			"width": 268,
-			"x": 1069,
+			"x": 1068,
 			"y": 260
 		},
 		"KoXVWU4hkAIMyLxAa4bP99uaEvJVpgQZ": {
 			"height": 94,
 			"title": "store",
 			"width": 252,
-			"x": 1479,
+			"x": 1478,
 			"y": 69
 		},
 		"RixKdgUFpvGZF2lIH2S9Ha9osaVODk1n": {
 			"height": 94,
 			"title": "store",
 			"width": 247,
-			"x": 1431,
+			"x": 1430,
 			"y": -13
 		},
 		"SqW23A85RN4Sw65wTSLGe78GXWnRGVSc": {
@@ -55,7 +55,7 @@
 			"height": 90,
 			"title": "luaCondition",
 			"width": 259,
-			"x": 1113,
+			"x": 1112,
 			"y": 130
 		},
 		"VhTHW9IWwjM5UULsLFWsC9rwczcQs6Tf": {
@@ -65,40 +65,40 @@
 			"x": 276,
 			"y": -94
 		},
-		"g2XvnEuoAmy4xvJApwz5rIv3MvZ43mbH": {
-			"height": 72,
-			"title": "wait",
-			"width": 131,
-			"x": 757,
-			"y": 338
-		},
 		"jTt7vqyON5vWgGXQNqs0ViKv5tgvL0Qr": {
 			"height": 110,
 			"title": "reference",
 			"width": 325,
-			"x": 1431,
+			"x": 1430,
 			"y": -115
 		},
 		"maD460XpnjmgVLuUxtmRygVbi3WgHvZl": {
 			"height": 110,
 			"title": "reference",
 			"width": 325,
-			"x": 1630,
+			"x": 1629,
 			"y": 261
 		},
 		"q8nLORj2K6uDOl16ngrVkdBJsDA5n8CB": {
 			"height": 110,
 			"title": "reference",
 			"width": 312,
-			"x": 1021,
+			"x": 1020,
 			"y": -92
 		},
 		"yhW7Fsgk3Eqh6bt4bBjP1Dy7qgEyCC5K": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1034,
+			"x": 1033,
 			"y": 38
+		},
+		"z47BbNJF3KsdUtHab146f3np0xvUimUb": {
+			"height": 54,
+			"title": "nota_majdaT_ctp2.end_node",
+			"width": 268,
+			"x": 805,
+			"y": 330
 		}
 	},
 	"roles": [ {
@@ -221,12 +221,13 @@
 				"referenceOutputs": []
 			}, {
 				"children": [],
-				"id": "g2XvnEuoAmy4xvJApwz5rIv3MvZ43mbH",
-				"nodeType": "wait",
+				"id": "z47BbNJF3KsdUtHab146f3np0xvUimUb",
+				"nodeType": "luaCommand",
 				"parameters": [ {
-					"name": "time",
-					"value": 1000
-				} ]
+					"name": "scriptName",
+					"value": "nota_majdaT_ctp2.end_node"
+				} ],
+				"scriptName": "nota_majdaT_ctp2.end_node"
 			} ],
 			"id": "SqW23A85RN4Sw65wTSLGe78GXWnRGVSc",
 			"nodeType": "sequence",
@@ -236,7 +237,7 @@
 		"nodeType": "roleSplit",
 		"parameters": [ {
 			"name": "mode",
-			"value": "all-success"
+			"value": "any-success"
 		} ]
 	}
 }

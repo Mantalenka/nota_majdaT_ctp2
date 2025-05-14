@@ -1,4 +1,4 @@
-nota_majdaT_ctp2 0.0.2
+nota_majdaT_ctp2 0.0.3
 ====
 
 * [dependencies](./dependencies.json)
