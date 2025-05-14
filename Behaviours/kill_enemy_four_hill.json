@@ -1,26 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "sB2OyBRHdqF75bsIRMkhvyKnHUHKGdoK",
-		"nodeType": "luaCommand",
-		"parameters": [ {
-			"name": "groupDefintion",
-			"value": "groupFormation"
-		}, {
-			"name": "position",
-			"value": "Vec3(3420,128,130)"
-		}, {
-			"name": "formation",
-			"value": "finalFormation"
-		}, {
-			"name": "fight",
-			"value": "true"
-		}, {
-			"name": "scriptName",
-			"value": "nota_majdaT_ctp2.moveCustomGroupWithChangePivot"
-		} ],
-		"scriptName": "nota_majdaT_ctp2.moveCustomGroupWithChangePivot"
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 88,
@@ -57,13 +36,6 @@
 			"width": 143,
 			"x": 216,
 			"y": 22
-		},
-		"sB2OyBRHdqF75bsIRMkhvyKnHUHKGdoK": {
-			"height": 132,
-			"title": "nota_majdaT_ctp2.moveCustomGroupWithChangePivot",
-			"width": 437,
-			"x": 943,
-			"y": 113
 		},
 		"ycehRZm9ePib39htcr3BYU6wP7CnFtnn": {
 			"height": 112,
